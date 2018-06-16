@@ -4,7 +4,6 @@ import java.sql.*;
 public class LIVEJDBCCLASS {
 
   public static void main(String[] args) {
-	
 	  
 	 String username="sql7240973";
 	 String password="MpsfY32PZg";
@@ -29,26 +28,11 @@ public class LIVEJDBCCLASS {
 			 System.out.print(rs.getString(4));
 			 System.out.println();
 		 }
-		 
-		 
-		 
-		 
-		 
-		 
-		 
 	 }
 	 catch(Exception e)
 	 {
 		 e.printStackTrace();
 	 }
-	  
-
-	  
-	  
-	  
-	  
-	  
-
 	}
 
 }
